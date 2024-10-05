@@ -1,0 +1,45 @@
+.p{
+    color: black;
+}
+.caja{
+    width: 120px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid blue;
+}
+.izq{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+    }
+.col{
+    color: blue;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+.item{
+    width: 50%;
+    height: 200px;
+    background-color: blue
+}
+.grid-contanier{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.grid-item{
+    background-color: red;
+    padding: 20px;
+}
+.centro{
+    text-align: center;
+}
+@media (max-width: 660px) {  /* @media': Regla para aplicar estilos según las características del dispositivo*/
+    .contenedor{             /* max-width': Aplica estilos si el ancho de la pantalla es menor que el valor especificado*/
+        flex-direction: column;
+    }
+}

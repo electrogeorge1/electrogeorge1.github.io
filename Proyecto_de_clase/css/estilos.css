@@ -1,0 +1,28 @@
+header{
+    display: grid;
+    width: 10px;
+    height: 600px;
+    justify-content: space-around;
+    background-image: url(*../imagenes/section1p.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: saturation;
+}
+.titulo1{
+    color: blue;
+}
+.parrafo1{
+    color: blue;
+    font-size: 70px;
+}
+.sixtyfour {
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0,
+      "XELA" 0,
+      "YELA" 0;
+  }

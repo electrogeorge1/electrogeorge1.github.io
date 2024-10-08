@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio  personal</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<!--Contenido acá-->    
+<!--Encabezado del HTML-->
+<header>
+<h1> Mi Portafolio</h1>
+    <nav>
+       <ul>
+        <li><a href="#about">Sobre mi</a></li>
+        <li><a href="#portafolio">Porfolio</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+       </ul> 
+    </nav>
+</header>
+<!--Sobre nosotros-->
+<section id="about">
+<h2>Sobre mi</h2>
+<p>Hola, soy Jorge Fernando Castellanos Contreras, un desarrollador web apasionado por crear soluciones innovadoras</p>
+</section>
+<!--Portafolio-->
+<section id="portafolio">
+    <h2>Portafolio</h2>
+    <div class="gallery">
+        <div class="project">
+            <img src="proyecto1.jpg" alt="Proyecto 1">
+            <p>Descripción del proyecto 1</p>
+        </div>
+        <div class="project">
+            <img src="proyecto2.jpg" alt="Proyecto 2">
+            <p>Descripción del proyecto 2</p>
+        </div>
+        <!--Más proyectos aquí-->
+        <div class="project">
+            <img src="proyecto3.jpg" alt="Proyecto 3">
+            <p>Descripción del proyecto 3</p>
+        </div>
+        <div class="project">
+            <img src="proyecto4.jpg" alt="Proyecto 4">
+            <p>Descripción del proyecto 4</p>
+        </div>
+    </div>
+</section>
+<!--Contactenos-->
+<section id="contacto">
+    <h2>Contacto</h2>
+    <form action="/submit" method="post">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" required><br>
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="message">Mensaje</label>
+        <textarea name="message" id="message" required></textarea><br>
+        <input type="submit" value="Emviar">
+    </form>
+</section>
+</body>
+</html>
